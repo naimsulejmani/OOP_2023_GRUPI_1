@@ -4,27 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_2023_GRUPI_1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/AccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/Pokemon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/PokemonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/StudentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/summary/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/summary/CounterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/summary/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/summary/DogTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/summary/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/summary/ProductTest.java" afterDir="false" />
+    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="added new changes">
+      <change beforePath="$PROJECT_DIR$/src/introduction/summary/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/introduction/summary/Counter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,10 +114,23 @@
       <updated>1677514929077</updated>
       <workItem from="1677514929837" duration="3400000" />
       <workItem from="1678120969254" duration="4111000" />
+      <workItem from="1678142511329" duration="47000" />
     </task>
+    <task id="LOCAL-00001" summary="added new changes">
+      <created>1678142552915</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678142552915</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added new changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new changes" />
   </component>
 </project>
