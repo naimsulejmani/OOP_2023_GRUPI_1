@@ -4,20 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="pass by reference &amp; value + some enums">
-      <change afterPath="$PROJECT_DIR$/src/enums/FontStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/JobType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/Length.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/Level.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/OldSeasonLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/PizzaStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/SearchEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/SearchEngineClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/SearchEngineTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/SearchEngineTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/Size.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/Suit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/SuitTest.java" afterDir="false" />
+    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="enums examples">
+      <change afterPath="$PROJECT_DIR$/src/ushtrime/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ushtrime/PointTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ushtrime/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ushtrime/SquareTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ushtrime/enums/MeasureUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ushtrime/enums/MeasureUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ushtrime/enums/Nota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ushtrime/enums/NotaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ushtrime/enums/ProcessorTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ushtrime/enums/ProcessorTypesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,13 +55,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SearchEngineTest1">
-    <configuration name="DayOfWeekTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="enums.DayOfWeekTest" />
+  <component name="RunManager" selected="Application.NotaTest">
+    <configuration name="MeasureUnitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ushtrime.enums.MeasureUnitTest" />
       <module name="OOP_2023_GRUPI_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="enums.*" />
+          <option name="PATTERN" value="ushtrime.enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MonthTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="enums.MonthTest" />
+    <configuration name="NotaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ushtrime.enums.NotaTest" />
       <module name="OOP_2023_GRUPI_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="enums.*" />
+          <option name="PATTERN" value="ushtrime.enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchEngineTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="enums.SearchEngineTest" />
+    <configuration name="PointTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ushtrime.PointTest" />
       <module name="OOP_2023_GRUPI_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="enums.*" />
+          <option name="PATTERN" value="ushtrime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchEngineTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="enums.SearchEngineTest1" />
+    <configuration name="ProcessorTypesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ushtrime.enums.ProcessorTypesTest" />
       <module name="OOP_2023_GRUPI_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="enums.*" />
+          <option name="PATTERN" value="ushtrime.enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="enums.SuitTest" />
+    <configuration name="SquareTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ushtrime.SquareTest" />
       <module name="OOP_2023_GRUPI_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="enums.*" />
+          <option name="PATTERN" value="ushtrime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SearchEngineTest1" />
-        <item itemvalue="Application.SearchEngineTest" />
-        <item itemvalue="Application.SuitTest" />
-        <item itemvalue="Application.MonthTest" />
-        <item itemvalue="Application.DayOfWeekTest" />
+        <item itemvalue="Application.NotaTest" />
+        <item itemvalue="Application.MeasureUnitTest" />
+        <item itemvalue="Application.ProcessorTypesTest" />
+        <item itemvalue="Application.SquareTest" />
+        <item itemvalue="Application.PointTest" />
       </list>
     </recent_temporary>
   </component>
@@ -156,6 +153,8 @@
       <workItem from="1678995129082" duration="26000" />
       <workItem from="1679069529623" duration="10000" />
       <workItem from="1679130947834" duration="5179000" />
+      <workItem from="1679143935179" duration="14000" />
+      <workItem from="1679329015209" duration="4822000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142552915</created>
@@ -192,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678995145368</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="enums examples">
+      <created>1679143944159</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679143944159</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +210,8 @@
     <MESSAGE value="object and classes, constructor, information hidding, encapsulation" />
     <MESSAGE value="object &amp; class ushtrime" />
     <MESSAGE value="pass by reference &amp; value + some enums" />
-    <option name="LAST_COMMIT_MESSAGE" value="pass by reference &amp; value + some enums" />
+    <MESSAGE value="enums examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="enums examples" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
