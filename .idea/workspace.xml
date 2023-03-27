@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="Relationship , Aggregation, Composition">
-      <change afterPath="$PROJECT_DIR$/src/associations_realtionships/CourseV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/associations_realtionships/todoapp/TodoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/associations_realtionships/todoapp/TodoItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/associations_realtionships/todoapp/TodoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/associations_realtionships/ushtrime/AntiAircraftGun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/associations_realtionships/ushtrime/Bomber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/associations_realtionships/ushtrime/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/associations_realtionships/ushtrime/TestGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/associations_realtionships/CourseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/associations_realtionships/CourseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,26 +52,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CourseTest">
+  <component name="RunManager" selected="Application.TodoApp">
     <configuration name="CourseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="associations_realtionships.CourseTest" />
       <module name="OOP_2023_GRUPI_1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="associations_realtionships.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MeasureUnitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ushtrime.enums.MeasureUnitTest" />
-      <module name="OOP_2023_GRUPI_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ushtrime.enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +92,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProcessorTypesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ushtrime.enums.ProcessorTypesTest" />
+    <configuration name="TestGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="associations_realtionships.ushtrime.TestGame" />
       <module name="OOP_2023_GRUPI_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ushtrime.enums.*" />
+          <option name="PATTERN" value="associations_realtionships.ushtrime.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="associations_realtionships.todoapp.TodoApp" />
+      <module name="OOP_2023_GRUPI_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="associations_realtionships.todoapp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TodoApp" />
+        <item itemvalue="Application.TestGame" />
         <item itemvalue="Application.CourseTest" />
         <item itemvalue="Application.PersonTest" />
         <item itemvalue="Application.NotaTest" />
-        <item itemvalue="Application.MeasureUnitTest" />
-        <item itemvalue="Application.ProcessorTypesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +153,8 @@
       <workItem from="1679143935179" duration="14000" />
       <workItem from="1679329015209" duration="4822000" />
       <workItem from="1679341829595" duration="14000" />
-      <workItem from="1679588131649" duration="4140000" />
+      <workItem from="1679588131649" duration="4275000" />
+      <workItem from="1679929944353" duration="5475000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142552915</created>
@@ -206,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679593215638</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Relationship , Aggregation, Composition">
+      <created>1679594267994</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679594267994</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +243,20 @@
           <url>file://$PROJECT_DIR$/src/introduction/reference_scope/VehicleTest.java</url>
           <line>4</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/associations_realtionships/CourseTest.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/associations_realtionships/ushtrime/Position.java</url>
+          <line>23</line>
+          <properties class="associations_realtionships.ushtrime.Position" method="setY">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
