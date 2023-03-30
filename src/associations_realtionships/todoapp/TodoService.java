@@ -29,6 +29,7 @@ public class TodoService {
         }
         return null;
     }
+
     public static void changeStatus(int todoId) {
         TodoItem item = findBy(todoId);
         if (item == null) {
@@ -37,6 +38,7 @@ public class TodoService {
         }
         item.setCompleted(!item.isCompleted());
     }
+
     public static void deleteBy(int todoId) {
         TodoItem item = findBy(todoId);
         if (item == null) {
@@ -45,6 +47,24 @@ public class TodoService {
         }
         items.remove(item);
     }
+
+    public static void changeTitle(int todoId, String newTitle) {
+        TodoItem item = findBy(todoId);
+        if (item == null) {
+            System.out.println("Elementi me ID nuk gjendet!");
+            return;
+        }
+        item.setTitle(newTitle);
+    }
+
+    public static void printTodosThatContains(String keyword) {
+        for (TodoItem todo : items) {
+            if (todo.getTitle().toLowerCase().contains(keyword.toLowerCase())) {
+                System.out.println(todo);
+            }
+        }
+    }
+
 }
 
 

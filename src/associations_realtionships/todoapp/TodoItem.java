@@ -43,8 +43,10 @@ public class TodoItem {
     // [1] - Porosia Per iftar( 2023-03-27T17:55:10.234) - true
     @Override
     public String toString() {
-        return String.format("[%d] - %s (%s): %b",
-                ID, title, createdAt, isCompleted());
+        //  Windows + .
+        String completed = isCompleted() ? "✅" : "❌";
+        return String.format("[%d] - %s (%s): %s",
+                ID, title, createdAt, completed);
     }
 }
 
