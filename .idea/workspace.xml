@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="game time">
-      <change afterPath="$PROJECT_DIR$/src/associations_realtionships/courses/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/associations_realtionships/courses/CourseLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/associations_realtionships/courses/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/associations_realtionships/courses/Professor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/associations_realtionships/courses/ProfessorTitle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/associations_realtionships/courses/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/associations_realtionships/todoapp/TodoMenu.java" afterDir="false" />
+    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="Courses">
+      <change afterPath="$PROJECT_DIR$/src/inheritance/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/records/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/records/StudentiRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/records/StudentiTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/associations_realtionships/todoapp/TodoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/associations_realtionships/todoapp/TodoApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/associations_realtionships/todoapp/TodoItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/associations_realtionships/todoapp/TodoItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/associations_realtionships/todoapp/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/associations_realtionships/todoapp/TodoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,10 +22,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -46,16 +46,19 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "full.screen.before.presentation.mode": "true",
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TodoApp">
+  <component name="RunManager" selected="Application.StudentTest">
     <configuration name="CourseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="associations_realtionships.CourseTest" />
       <module name="OOP_2023_GRUPI_1" />
@@ -69,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ushtrime.enums.NotaTest" />
+    <configuration name="StudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.StudentTest" />
       <module name="OOP_2023_GRUPI_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ushtrime.enums.*" />
+          <option name="PATTERN" value="inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="associations_realtionships.PersonTest" />
+    <configuration name="StudentiTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="records.StudentiTest" />
       <module name="OOP_2023_GRUPI_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="associations_realtionships.*" />
+          <option name="PATTERN" value="records.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentTest" />
+        <item itemvalue="Application.StudentiTest" />
         <item itemvalue="Application.TodoApp" />
         <item itemvalue="Application.TestGame" />
         <item itemvalue="Application.CourseTest" />
-        <item itemvalue="Application.PersonTest" />
-        <item itemvalue="Application.NotaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -161,6 +164,9 @@
       <workItem from="1679958565131" duration="25000" />
       <workItem from="1680116126151" duration="7000" />
       <workItem from="1680189348246" duration="5369000" />
+      <workItem from="1680202153565" duration="103000" />
+      <workItem from="1680202335110" duration="37000" />
+      <workItem from="1680534743430" duration="4899000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142552915</created>
@@ -232,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679958581836</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Courses">
+      <created>1680202159495</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680202159495</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +261,8 @@
     <MESSAGE value="ushtrime" />
     <MESSAGE value="Relationship , Aggregation, Composition" />
     <MESSAGE value="game time" />
-    <option name="LAST_COMMIT_MESSAGE" value="game time" />
+    <MESSAGE value="Courses" />
+    <option name="LAST_COMMIT_MESSAGE" value="Courses" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
