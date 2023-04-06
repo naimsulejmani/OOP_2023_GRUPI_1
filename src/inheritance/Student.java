@@ -49,6 +49,27 @@ public class Student extends Person {
     public void setCollege(String college) {
         this.college = college;
     }
+
+    @Override
+    public void setNationality(String nationality) {
+        if (nationality.toLowerCase().startsWith("k"))
+            super.setNationality(nationality);
+    }
+
+    @Override
+    public String getNationality() {
+        return "Nacionaliteti: " + super.getNationality();
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", generation='" + generation + '\'' +
+                ", fieldOfStudy='" + fieldOfStudy + '\'' +
+                ", college='" + college + '\'' +
+                '}' + " " + super.toString();
+    }
 }
 
 

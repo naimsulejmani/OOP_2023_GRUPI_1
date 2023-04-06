@@ -2,7 +2,7 @@ package inheritance;
 
 import java.time.LocalDate;
 
-public class Person {
+public class Person extends Object{
     private String name;
     private String surname;
     private LocalDate birthdate;
@@ -30,7 +30,7 @@ public class Person {
         this(name, surname, LocalDate.now(), 'M', "K/shqiptar");
     }
 
-    public String getName() {
+    public final String getName() {
         return name;
     }
 
@@ -70,7 +70,16 @@ public class Person {
         this.nationality = nationality;
     }
 
-
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", birthdate=" + birthdate +
+                ", gender=" + gender +
+                ", nationality='" + nationality + '\'' +
+                '}';
+    }
 }
 
 

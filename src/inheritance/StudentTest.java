@@ -1,6 +1,7 @@
 package inheritance;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 
 public class StudentTest {
     public static void main(String[] args) {
@@ -11,6 +12,13 @@ public class StudentTest {
         );
         System.out.println(student.getName());
         System.out.println(student.getCollege());
+        System.out.println(student);
+
+        StudentTest st = new StudentTest();
+        System.out.println(st);
+
+        ArrayList lista = new ArrayList();
+
     }
 }
 
