@@ -4,17 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="Inheritance">
-      <change afterPath="$PROJECT_DIR$/src/inheritance/bird_app/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/bird_app/BirdTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/bird_app/FlyingBird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/bird_app/Goose.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/bird_app/Parrot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/bird_app/WalkingBird.java" afterDir="false" />
+    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="Inheritance part 1">
+      <change afterPath="$PROJECT_DIR$/src/inheritance/payroll_app/Consulent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/payroll_app/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/payroll_app/EmployeeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/payroll_app/HourlyEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/payroll_app/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/payroll_app/Paycheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/payroll_app/PayrollGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/payroll_app/Programmer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/payroll_app/SalariedEmployee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/StudentTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +61,26 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BirdTest">
+  <component name="RunManager" selected="Application.EmployeeTest">
     <configuration name="BirdTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inheritance.bird_app.BirdTest" />
       <module name="OOP_2023_GRUPI_1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="inheritance.bird_app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.payroll_app.EmployeeTest" />
+      <module name="OOP_2023_GRUPI_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inheritance.payroll_app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,19 +114,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="associations_realtionships.ushtrime.TestGame" />
-      <module name="OOP_2023_GRUPI_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="associations_realtionships.ushtrime.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TodoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="associations_realtionships.todoapp.TodoApp" />
       <module name="OOP_2023_GRUPI_1" />
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmployeeTest" />
         <item itemvalue="Application.BirdTest" />
         <item itemvalue="Application.StudentTest" />
         <item itemvalue="Application.StudentiTest" />
         <item itemvalue="Application.TodoApp" />
-        <item itemvalue="Application.TestGame" />
       </list>
     </recent_temporary>
   </component>
@@ -173,6 +173,8 @@
       <workItem from="1680548128207" duration="32000" />
       <workItem from="1680706805863" duration="17000" />
       <workItem from="1680793508274" duration="5358000" />
+      <workItem from="1680806905566" duration="27000" />
+      <workItem from="1681399280858" duration="4271000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142552915</created>
@@ -258,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680548146783</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Inheritance part 1">
+      <created>1680806914589</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1680806914589</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +285,8 @@
     <MESSAGE value="game time" />
     <MESSAGE value="Courses" />
     <MESSAGE value="Inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inheritance" />
+    <MESSAGE value="Inheritance part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inheritance part 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
