@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="payroll app">
+    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="Inheritance + COmposition">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/inheritance/payroll_app/PayrollGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/payroll_app/PayrollGenerator.java" afterDir="false" />
     </list>
@@ -168,6 +168,8 @@
       <workItem from="1680806905566" duration="27000" />
       <workItem from="1681399280858" duration="5368000" />
       <workItem from="1681409014850" duration="16000" />
+      <workItem from="1681481015703" duration="29000" />
+      <workItem from="1681744156355" duration="2276000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142552915</created>
@@ -267,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681403582230</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Inheritance + COmposition">
+      <created>1681481032380</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1681481032380</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,7 +296,8 @@
     <MESSAGE value="Inheritance" />
     <MESSAGE value="Inheritance part 1" />
     <MESSAGE value="payroll app" />
-    <option name="LAST_COMMIT_MESSAGE" value="payroll app" />
+    <MESSAGE value="Inheritance + COmposition" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inheritance + COmposition" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
