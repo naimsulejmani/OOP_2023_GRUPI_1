@@ -25,20 +25,25 @@ public class PayrollGenerator {
             float salaryOrHours = Float.parseFloat(employeeAttrs[6]);
             float bonusOrHourlyWage = Float.parseFloat(employeeAttrs[7]);
 
-            Employee employee;
+            Employee employee = switch (title) {
+                case "programer" -> new Programmer(id, name, surname, salaryOrHours, bonusOrHourlyWage);
+                case "manager" -> new Manager(id, name, surname, salaryOrHours, bonusOrHourlyWage);
+                case "consulent" -> new Consulent(id, name, surname, (int) salaryOrHours, bonusOrHourlyWage);
+                default -> null;
+            };
 
-            switch (title) {
-                case "programer" -> {
-                    employee = new Programmer(id, name, surname, salaryOrHours, bonusOrHourlyWage);
-                }
-                case "manager" -> {
-                    employee = new Manager(id, name, surname, salaryOrHours, bonusOrHourlyWage);
-                }
-                case "consulent" -> {
-                    employee = new Consulent(id, name, surname, (int) salaryOrHours, bonusOrHourlyWage);
-                }
-                default -> employee = null;
-            }
+//            switch (title) {
+//                case "programer" -> {
+//                    employee = new Programmer(id, name, surname, salaryOrHours, bonusOrHourlyWage);
+//                }
+//                case "manager" -> {
+//                    employee = new Manager(id, name, surname, salaryOrHours, bonusOrHourlyWage);
+//                }
+//                case "consulent" -> {
+//                    employee = new Consulent(id, name, surname, (int) salaryOrHours, bonusOrHourlyWage);
+//                }
+//                default -> employee = null;
+//            }
 
             if (employee != null) {
                 Paycheck paycheck = new Paycheck(month, year, employee);

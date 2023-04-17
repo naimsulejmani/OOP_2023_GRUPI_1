@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="Inheritance + COmposition">
+    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="payroll generator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/inheritance/payroll_app/PayrollGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/payroll_app/PayrollGenerator.java" afterDir="false" />
     </list>
@@ -169,7 +169,7 @@
       <workItem from="1681399280858" duration="5368000" />
       <workItem from="1681409014850" duration="16000" />
       <workItem from="1681481015703" duration="29000" />
-      <workItem from="1681744156355" duration="2276000" />
+      <workItem from="1681744156355" duration="3469000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142552915</created>
@@ -276,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681481032380</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="payroll generator">
+      <created>1681746749648</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1681746749648</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +304,8 @@
     <MESSAGE value="Inheritance part 1" />
     <MESSAGE value="payroll app" />
     <MESSAGE value="Inheritance + COmposition" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inheritance + COmposition" />
+    <MESSAGE value="payroll generator" />
+    <option name="LAST_COMMIT_MESSAGE" value="payroll generator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
