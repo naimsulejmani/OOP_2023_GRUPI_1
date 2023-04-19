@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="new switch logic used">
-      <change afterPath="$PROJECT_DIR$/src/inheritance/polymorphism_other/CounterStrike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/polymorphism_other/CounterStrike1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/polymorphism_other/InstanceInitializerBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/polymorphism_other/MainOverloaded.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/polymorphism_other/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/polymorphism_other/PersonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/polymorphism_other/VarArgs.java" afterDir="false" />
+    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="polymorphism varaargs etc">
+      <change afterPath="$PROJECT_DIR$/src/inheritance/polymorphism_other/Cottage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/polymorphism_other/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/polymorphism_other/HouseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/polymorphism_other/Vila.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/summary/StackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/summary/WrongStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,13 +58,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PersonTest">
-    <configuration name="EmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inheritance.payroll_app.EmployeeTest" />
+  <component name="RunManager" selected="Application.StackTest">
+    <configuration name="HouseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.polymorphism_other.HouseTest" />
       <module name="OOP_2023_GRUPI_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inheritance.payroll_app.*" />
+          <option name="PATTERN" value="inheritance.polymorphism_other.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PayrollGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inheritance.payroll_app.PayrollGenerator" />
+    <configuration name="PersonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.polymorphism_other.PersonTest" />
       <module name="OOP_2023_GRUPI_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inheritance.payroll_app.*" />
+          <option name="PATTERN" value="inheritance.polymorphism_other.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inheritance.polymorphism_other.PersonTest" />
+    <configuration name="StackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.summary.StackTest" />
       <module name="OOP_2023_GRUPI_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inheritance.polymorphism_other.*" />
+          <option name="PATTERN" value="inheritance.summary.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StackTest" />
+        <item itemvalue="Application.HouseTest" />
         <item itemvalue="Application.PersonTest" />
         <item itemvalue="Application.InstanceInitializerBlock" />
         <item itemvalue="Application.VarArgs" />
-        <item itemvalue="Application.PayrollGenerator" />
-        <item itemvalue="Application.EmployeeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -176,6 +175,7 @@
       <workItem from="1681409014850" duration="16000" />
       <workItem from="1681481015703" duration="29000" />
       <workItem from="1681744156355" duration="6287000" />
+      <workItem from="1681917332587" duration="2673000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142552915</created>
@@ -296,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681747652946</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="polymorphism varaargs etc">
+      <created>1681917344877</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1681917344877</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +326,8 @@
     <MESSAGE value="Inheritance + COmposition" />
     <MESSAGE value="payroll generator" />
     <MESSAGE value="new switch logic used" />
-    <option name="LAST_COMMIT_MESSAGE" value="new switch logic used" />
+    <MESSAGE value="polymorphism varaargs etc" />
+    <option name="LAST_COMMIT_MESSAGE" value="polymorphism varaargs etc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
