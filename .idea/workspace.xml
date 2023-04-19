@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="polymorphism varaargs etc">
-      <change afterPath="$PROJECT_DIR$/src/inheritance/polymorphism_other/Cottage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/polymorphism_other/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/polymorphism_other/HouseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/polymorphism_other/Vila.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/summary/StackTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/summary/WrongStack.java" afterDir="false" />
+    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="wrong stack">
+      <change afterPath="$PROJECT_DIR$/src/inheritance/summary/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mini_projects/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inheritance/summary/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/summary/StackTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +172,7 @@
       <workItem from="1681409014850" duration="16000" />
       <workItem from="1681481015703" duration="29000" />
       <workItem from="1681744156355" duration="6287000" />
-      <workItem from="1681917332587" duration="2673000" />
+      <workItem from="1681917332587" duration="4901000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142552915</created>
@@ -303,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681917344877</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="wrong stack">
+      <created>1681920328352</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1681920328352</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +331,8 @@
     <MESSAGE value="payroll generator" />
     <MESSAGE value="new switch logic used" />
     <MESSAGE value="polymorphism varaargs etc" />
-    <option name="LAST_COMMIT_MESSAGE" value="polymorphism varaargs etc" />
+    <MESSAGE value="wrong stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="wrong stack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
