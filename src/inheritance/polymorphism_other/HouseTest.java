@@ -12,6 +12,10 @@ public class HouseTest {
         testInstanceOf(h2);
         testInstanceOf(h3);
 
+
+
+
+
         if (h3 instanceof Vila) {
             Vila h3_1 = (Vila) h3; //down_casting
         }

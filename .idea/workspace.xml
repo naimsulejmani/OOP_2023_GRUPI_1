@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="wrong stack">
-      <change afterPath="$PROJECT_DIR$/src/inheritance/summary/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mini_projects/Test.java" afterDir="false" />
+    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="Stacks">
+      <change afterPath="$PROJECT_DIR$/files/some.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/AddArguments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/AddArguments1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/ProductException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/ReadingFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/SomeResources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/polymorphism_other/HouseTest1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/summary/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/summary/StackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inheritance/polymorphism_other/HouseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/polymorphism_other/HouseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,9 +60,40 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StackTest">
-    <configuration name="HouseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inheritance.polymorphism_other.HouseTest" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="exceptions" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SomeResources">
+    <configuration name="AddArguments" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.AddArguments" />
+      <module name="OOP_2023_GRUPI_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddArguments1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.AddArguments1" />
+      <module name="OOP_2023_GRUPI_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HouseTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.polymorphism_other.HouseTest1" />
       <module name="OOP_2023_GRUPI_1" />
       <extension name="coverage">
         <pattern>
@@ -69,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstanceInitializerBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inheritance.polymorphism_other.InstanceInitializerBlock" />
+    <configuration name="ReadingFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.ReadingFile" />
       <module name="OOP_2023_GRUPI_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inheritance.polymorphism_other.*" />
+          <option name="PATTERN" value="exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,38 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inheritance.polymorphism_other.PersonTest" />
+    <configuration name="SomeResources" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.SomeResources" />
       <module name="OOP_2023_GRUPI_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inheritance.polymorphism_other.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inheritance.summary.StackTest" />
-      <module name="OOP_2023_GRUPI_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inheritance.summary.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VarArgs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inheritance.polymorphism_other.VarArgs" />
-      <module name="OOP_2023_GRUPI_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inheritance.polymorphism_other.*" />
+          <option name="PATTERN" value="exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StackTest" />
-        <item itemvalue="Application.HouseTest" />
-        <item itemvalue="Application.PersonTest" />
-        <item itemvalue="Application.InstanceInitializerBlock" />
-        <item itemvalue="Application.VarArgs" />
+        <item itemvalue="Application.SomeResources" />
+        <item itemvalue="Application.ReadingFile" />
+        <item itemvalue="Application.HouseTest1" />
+        <item itemvalue="Application.AddArguments1" />
+        <item itemvalue="Application.AddArguments" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +182,8 @@
       <workItem from="1681409014850" duration="16000" />
       <workItem from="1681481015703" duration="29000" />
       <workItem from="1681744156355" duration="6287000" />
-      <workItem from="1681917332587" duration="4901000" />
+      <workItem from="1681917332587" duration="4914000" />
+      <workItem from="1682002629656" duration="6012000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142552915</created>
@@ -307,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681920328352</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Stacks">
+      <created>1681922861493</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1681922861493</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +350,8 @@
     <MESSAGE value="new switch logic used" />
     <MESSAGE value="polymorphism varaargs etc" />
     <MESSAGE value="wrong stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="wrong stack" />
+    <MESSAGE value="Stacks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stacks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
