@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="Stacks">
-      <change afterPath="$PROJECT_DIR$/files/some.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/AddArguments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/AddArguments1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/ProductException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/ReadingFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/SomeResources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/polymorphism_other/HouseTest1.java" afterDir="false" />
+    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="Exception Handling">
+      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/ShopApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/exceptions/ExpireDateException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/exceptions/NegativePriceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/exceptions/ProductNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/manager/ProductManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/models/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/models/Rating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/repositories/ProductRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/polymorphism_other/HouseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/polymorphism_other/HouseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Enum" />
         <option value="Record" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -42,43 +42,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "full.screen.before.presentation.mode": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="exceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SomeResources">
-    <configuration name="AddArguments" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptions.AddArguments" />
-      <module name="OOP_2023_GRUPI_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ShopApp">
     <configuration name="AddArguments1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exceptions.AddArguments1" />
       <module name="OOP_2023_GRUPI_1" />
@@ -118,6 +105,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShopApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mini_projects.shop.ShopApp" />
+      <module name="OOP_2023_GRUPI_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mini_projects.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SomeResources" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exceptions.SomeResources" />
       <module name="OOP_2023_GRUPI_1" />
@@ -133,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShopApp" />
         <item itemvalue="Application.SomeResources" />
         <item itemvalue="Application.ReadingFile" />
         <item itemvalue="Application.HouseTest1" />
         <item itemvalue="Application.AddArguments1" />
-        <item itemvalue="Application.AddArguments" />
       </list>
     </recent_temporary>
   </component>
@@ -184,6 +184,8 @@
       <workItem from="1681744156355" duration="6287000" />
       <workItem from="1681917332587" duration="4914000" />
       <workItem from="1682002629656" duration="6012000" />
+      <workItem from="1682019938593" duration="26000" />
+      <workItem from="1682349949879" duration="5748000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142552915</created>
@@ -325,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681922861493</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Exception Handling">
+      <created>1682019948657</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1682019948657</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +360,8 @@
     <MESSAGE value="polymorphism varaargs etc" />
     <MESSAGE value="wrong stack" />
     <MESSAGE value="Stacks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stacks" />
+    <MESSAGE value="Exception Handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exception Handling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
