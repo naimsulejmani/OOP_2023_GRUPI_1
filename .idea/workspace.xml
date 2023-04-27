@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="Product manager">
-      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/enums/ProductType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/models/Drink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/models/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/models/Review.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mini_projects/shop/ShopApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mini_projects/shop/ShopApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mini_projects/shop/manager/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mini_projects/shop/manager/ProductManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mini_projects/shop/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mini_projects/shop/models/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mini_projects/shop/models/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mini_projects/shop/enums/Rating.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +183,7 @@
       <workItem from="1682019938593" duration="26000" />
       <workItem from="1682349949879" duration="5748000" />
       <workItem from="1682521213139" duration="24000" />
-      <workItem from="1682608828445" duration="2075000" />
+      <workItem from="1682608828445" duration="4535000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142552915</created>
@@ -342,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682521223015</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Product manager">
+      <created>1682611000874</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1682611000874</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

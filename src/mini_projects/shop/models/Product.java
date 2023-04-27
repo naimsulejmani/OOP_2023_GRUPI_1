@@ -4,6 +4,7 @@ import mini_projects.shop.enums.Rating;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.util.ArrayList;
 
 public class Product {
     private static int generateId = 0;
@@ -12,6 +13,8 @@ public class Product {
     private String description;
     private LocalDate bestBefore;
     private BigDecimal price;
+
+    private ArrayList<Review> reviews = new ArrayList<>();
     private Rating rating;
 
     public Product(String name, String description, LocalDate bestBefore, BigDecimal price, Rating rating) {
@@ -79,6 +82,11 @@ public class Product {
 
     public double getDiscount() {
         return 0;
+    }
+
+
+    public ArrayList<Review> getReviews() {
+        return reviews;
     }
 
     @Override

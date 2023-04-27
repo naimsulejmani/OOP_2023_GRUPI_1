@@ -17,7 +17,11 @@ public class ShopApp {
                 1.5, "2023-03-03");
         ProductManager.createProduct(ProductType.DRINK, "Coca Cola 250ml", "Cocal cola 250ml me shiqer",
                 1.5, "2023-05-03");
-        ProductManager.printAllProducts();
+
+        ProductManager.createReview(3,"naim","Wow super",false,5);
+        ProductManager.createReview(3,"edipi","katastrofe",true,2);
+
+        ProductManager.printAllProducts(true);
 
     }
 }
