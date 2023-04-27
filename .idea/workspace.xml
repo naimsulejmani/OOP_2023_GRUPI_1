@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="Exception Handling">
-      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/ShopApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/exceptions/ExpireDateException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/exceptions/NegativePriceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/exceptions/ProductNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/manager/ProductManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/models/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/models/Rating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/repositories/ProductRepository.java" afterDir="false" />
+    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="Product manager">
+      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/enums/ProductType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/models/Drink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/models/Food.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mini_projects/shop/ShopApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mini_projects/shop/ShopApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mini_projects/shop/manager/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mini_projects/shop/manager/ProductManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mini_projects/shop/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mini_projects/shop/models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mini_projects/shop/models/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mini_projects/shop/enums/Rating.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "full.screen.before.presentation.mode": "true",
+    "full.screen.before.presentation.mode": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
@@ -186,6 +185,8 @@
       <workItem from="1682002629656" duration="6012000" />
       <workItem from="1682019938593" duration="26000" />
       <workItem from="1682349949879" duration="5748000" />
+      <workItem from="1682521213139" duration="24000" />
+      <workItem from="1682608828445" duration="2075000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142552915</created>
@@ -334,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682019948657</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Product manager">
+      <created>1682521223015</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1682521223015</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,7 +369,8 @@
     <MESSAGE value="wrong stack" />
     <MESSAGE value="Stacks" />
     <MESSAGE value="Exception Handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exception Handling" />
+    <MESSAGE value="Product manager" />
+    <option name="LAST_COMMIT_MESSAGE" value="Product manager" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

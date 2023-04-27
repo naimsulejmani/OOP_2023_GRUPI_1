@@ -1,5 +1,7 @@
 package mini_projects.shop.models;
 
+import mini_projects.shop.enums.Rating;
+
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
@@ -72,6 +74,11 @@ public class Product {
 
     public void setRating(Rating rating) {
         this.rating = rating;
+    }
+
+
+    public double getDiscount() {
+        return 0;
     }
 
     @Override

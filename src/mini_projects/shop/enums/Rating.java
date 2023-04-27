@@ -1,4 +1,4 @@
-package mini_projects.shop.models;
+package mini_projects.shop.enums;
 
 public enum Rating {
 
