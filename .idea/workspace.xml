@@ -4,16 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="Product manager">
-      <change afterPath="$PROJECT_DIR$/src/abstract_classes/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_classes/Derived.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_classes/DerivedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_classes/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_classes/PersonCrud.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_classes/PersonCrudImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_classes/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_classes/ShapeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_classes/Star.java" afterDir="false" />
+    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="Abstract Class">
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/FunkyKeyListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/KeyListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/MyListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Perishable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/PerishableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/PlayerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Television.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/games/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/games/CheckersRuleSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/games/ChessRuleSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/games/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/games/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/games/RuleSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +34,7 @@
         <option value="package-info" />
         <option value="Record" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -66,7 +74,7 @@
       <recent name="exceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DerivedTest">
+  <component name="RunManager" selected="Application.Game">
     <configuration name="DerivedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="abstract_classes.DerivedTest" />
       <module name="OOP_2023_GRUPI_1" />
@@ -80,12 +88,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadingFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptions.ReadingFile" />
+    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaces.games.Game" />
       <module name="OOP_2023_GRUPI_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exceptions.*" />
+          <option name="PATTERN" value="interfaces.games.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PerishableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaces.PerishableTest" />
+      <module name="OOP_2023_GRUPI_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,26 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SomeResources" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptions.SomeResources" />
-      <module name="OOP_2023_GRUPI_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Game" />
+        <item itemvalue="Application.PerishableTest" />
         <item itemvalue="Application.DerivedTest" />
         <item itemvalue="Application.ShapeTest" />
         <item itemvalue="Application.ShopApp" />
-        <item itemvalue="Application.SomeResources" />
-        <item itemvalue="Application.ReadingFile" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +198,10 @@
       <workItem from="1682521213139" duration="24000" />
       <workItem from="1682608828445" duration="4573000" />
       <workItem from="1683213334344" duration="4721000" />
+      <workItem from="1683224324455" duration="42000" />
+      <workItem from="1683281886374" duration="1024000" />
+      <workItem from="1683300031001" duration="20000" />
+      <workItem from="1683360241567" duration="6394000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142552915</created>
@@ -359,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682614172739</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Abstract Class">
+      <created>1683224336094</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1683224336094</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,7 +406,8 @@
     <MESSAGE value="Stacks" />
     <MESSAGE value="Exception Handling" />
     <MESSAGE value="Product manager" />
-    <option name="LAST_COMMIT_MESSAGE" value="Product manager" />
+    <MESSAGE value="Abstract Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Abstract Class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
