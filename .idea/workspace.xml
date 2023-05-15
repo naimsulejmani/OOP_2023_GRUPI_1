@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="Interfaces">
-      <change afterPath="$PROJECT_DIR$/src/interfaces/adapters/AdapterList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/adapters/BleronList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/adapters/Listable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/db_example/DbConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/db_example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/db_example/drivers/MssqlDbConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/db_example/drivers/MysqlDbConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/db_example/drivers/OracleDbConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/db_example/exceptions/SQLException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/functional_interfaces/Moveable.java" afterDir="false" />
+    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="Loose Coupled - Interfaces">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mssql_jdbc_12_2_0_jre11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc_example/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc_example/TestConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_2023_GRUPI_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_2023_GRUPI_1.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,30 +39,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Development/Libraries/java/sqljdbc_12.2/enu/mssql-jdbc-12.2.0.jre11.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="exceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.TestConnection">
     <configuration name="DerivedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="abstract_classes.DerivedTest" />
       <module name="OOP_2023_GRUPI_1" />
@@ -121,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShapeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstract_classes.ShapeTest" />
+    <configuration name="TestConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc_example.TestConnection" />
       <module name="OOP_2023_GRUPI_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="abstract_classes.*" />
+          <option name="PATTERN" value="jdbc_example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestConnection" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Game" />
         <item itemvalue="Application.PerishableTest" />
         <item itemvalue="Application.DerivedTest" />
-        <item itemvalue="Application.ShapeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -197,6 +195,12 @@
       <workItem from="1683300031001" duration="20000" />
       <workItem from="1683360241567" duration="6394000" />
       <workItem from="1683558309176" duration="6417000" />
+      <workItem from="1683572339674" duration="39000" />
+      <workItem from="1683731441094" duration="35000" />
+      <workItem from="1683826134930" duration="78000" />
+      <workItem from="1683831019785" duration="6000" />
+      <workItem from="1683887018059" duration="12000" />
+      <workItem from="1684164043065" duration="3417000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142552915</created>
@@ -380,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683558317624</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Loose Coupled - Interfaces">
+      <created>1683572369373</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1683572369373</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,7 +421,8 @@
     <MESSAGE value="Product manager" />
     <MESSAGE value="Abstract Class" />
     <MESSAGE value="Interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="Interfaces" />
+    <MESSAGE value="Loose Coupled - Interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Loose Coupled - Interfaces" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
