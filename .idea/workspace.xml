@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="Loose Coupled - Interfaces">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mssql_jdbc_12_2_0_jre11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc_example/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc_example/TestConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_2023_GRUPI_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_2023_GRUPI_1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc_example/CategoryConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc_example/CategoryConnection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,13 +63,13 @@
       <recent name="exceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestConnection">
-    <configuration name="DerivedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstract_classes.DerivedTest" />
+  <component name="RunManager" selected="Application.CategoryConnection">
+    <configuration name="CategoryConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc_example.CategoryConnection" />
       <module name="OOP_2023_GRUPI_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="abstract_classes.*" />
+          <option name="PATTERN" value="jdbc_example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CategoryConnection" />
         <item itemvalue="Application.TestConnection" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Game" />
         <item itemvalue="Application.PerishableTest" />
-        <item itemvalue="Application.DerivedTest" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +197,7 @@
       <workItem from="1683826134930" duration="78000" />
       <workItem from="1683831019785" duration="6000" />
       <workItem from="1683887018059" duration="12000" />
-      <workItem from="1684164043065" duration="3417000" />
+      <workItem from="1684164043065" duration="5210000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142552915</created>
@@ -391,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683572369373</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Loose Coupled - Interfaces">
+      <created>1684168064615</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1684168064615</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
