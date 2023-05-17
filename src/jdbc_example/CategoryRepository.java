@@ -9,13 +9,15 @@ public class CategoryRepository {
             "jdbc:sqlserver://127.0.0.1:1433;encrypt=false;databaseName=Northwind;username=sa;password=yourStrong(!)Password;";
 
     public static void main(String[] args) {
-      //  addCategory(new Category(9, "Profesor", "Profesor", null));
+        //  addCategory(new Category(9, "Profesor", "Profesor", null));
 
-        List<Category> categories = getAllCategories();
+//        List<Category> categories = getAllCategories();
+//
+//        for (Category category : categories) {
+//            System.out.println(category);
+//        }
 
-        for (Category category : categories) {
-            System.out.println(category);
-        }
+        System.out.println(getCategoryById(1));
     }
 
     public static void addCategory(Category category) {
@@ -32,6 +34,29 @@ public class CategoryRepository {
 
         } catch (SQLException e) {
             throw new RuntimeException(e);
+        }
+    }
+
+    public static Category getCategoryById(int categoryId) {
+        String query = "SELECT * FROM dbo.Categories WHERE CategoryId = ?";
+        try (Connection connection = DriverManager.getConnection(connectionString);
+             PreparedStatement stmt = connection.prepareStatement(query);
+        ) {
+            stmt.setInt(1, categoryId);
+            ResultSet resultSet = stmt.executeQuery();
+            Category category = null;
+            if (resultSet.next()) {
+                categoryId = resultSet.getInt(1);
+                String categoryName = resultSet.getString("CategoryName");
+                String description = resultSet.getObject("Description", String.class);
+                String picture = resultSet.getObject(4) != null
+                        ? resultSet.getObject(4).toString() : "NULL";
+                category = new Category(categoryId, categoryName, description, picture);
+            }
+            return category;
+        } catch (SQLException ex) {
+            System.out.println(ex.getMessage());
+            throw new RuntimeException(ex);
         }
     }
 
