@@ -50,7 +50,7 @@ public class Category {
 
     @Override
     public String toString() {
-        return String.format("%d | %15s | %s", categoryId, categoryName, description);
+        return String.format("%2d | %15s | %s", categoryId, categoryName, description);
     }
 }
 

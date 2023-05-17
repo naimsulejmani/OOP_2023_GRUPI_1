@@ -4,16 +4,21 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CategoryConnection {
+public class CategoryRepository {
     private static final String connectionString =
             "jdbc:sqlserver://127.0.0.1:1433;encrypt=false;databaseName=Northwind;username=sa;password=yourStrong(!)Password;";
 
     public static void main(String[] args) {
-        testInsert(new Category(9, "Profesor", "Profesor", null));
-        testSelectAll();
+      //  addCategory(new Category(9, "Profesor", "Profesor", null));
+
+        List<Category> categories = getAllCategories();
+
+        for (Category category : categories) {
+            System.out.println(category);
+        }
     }
 
-    public static void testInsert(Category category) {
+    public static void addCategory(Category category) {
         String query = "INSERT INTO dbo.Categories(CategoryName, Description) VALUES (?, ?)";
         try (
                 Connection connection = DriverManager.getConnection(connectionString);
@@ -30,7 +35,7 @@ public class CategoryConnection {
         }
     }
 
-    public static void testSelectAll() {
+    public static List<Category> getAllCategories() {
 
         try {
             Connection connection = DriverManager.getConnection(connectionString);
@@ -47,10 +52,9 @@ public class CategoryConnection {
                         ? resultSet.getObject(4).toString() : "NULL";
                 Category category = new Category(categoryId, categoryName, description, picture);
                 categories.add(category);
-                System.out.println(category);
             }
             connection.close();
-
+            return categories;
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
