@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="Category Repository">
-      <change afterPath="$PROJECT_DIR$/src/generics/GenericMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/Grade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/PairInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/PairNewTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/PairObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/PairOldTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/PairOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/PairString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/PairTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/db/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/db/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/db/CrudRepository.java" afterDir="false" />
+    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="Generics">
+      <change afterPath="$PROJECT_DIR$/src/db_project/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db_project/models/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db_project/models/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db_project/models/Supplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string_builders/StringBuilderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,28 +40,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Development/Libraries/java/sqljdbc_12.2/enu/mssql-jdbc-12.2.0.jre11.jar&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Development/Libraries/java/sqljdbc_12.2/enu/mssql-jdbc-12.2.0.jre11.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="generics.db" />
@@ -213,6 +206,8 @@
       <workItem from="1684335910396" duration="232000" />
       <workItem from="1684340378353" duration="2635000" />
       <workItem from="1684430769969" duration="5145000" />
+      <workItem from="1684437788614" duration="25000" />
+      <workItem from="1684769608032" duration="1198000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142552915</created>
@@ -431,14 +426,20 @@
       <option name="project" value="LOCAL" />
       <updated>1684343725997</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Generics">
+      <created>1684437800953</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1684437800953</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="small changes" />
     <MESSAGE value="object and classes, constructor, information hidding, encapsulation" />
     <MESSAGE value="object &amp; class ushtrime" />
     <MESSAGE value="pass by reference &amp; value + some enums" />
@@ -463,7 +464,8 @@
     <MESSAGE value="Loose Coupled - Interfaces" />
     <MESSAGE value="CategoryConnection" />
     <MESSAGE value="Category Repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="Category Repository" />
+    <MESSAGE value="Generics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generics" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
