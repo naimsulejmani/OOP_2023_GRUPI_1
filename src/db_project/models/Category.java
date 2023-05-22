@@ -6,6 +6,16 @@ public class Category {
     private String description;
     private byte[] picture;
 
+    public Category() {
+    }
+
+    public Category(int categoryId, String categoryName, String description, byte[] picture) {
+        this.categoryId = categoryId;
+        this.categoryName = categoryName;
+        this.description = description;
+        this.picture = picture;
+    }
+
     public int getCategoryId() {
         return categoryId;
     }
