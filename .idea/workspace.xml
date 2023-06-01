@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="DB Example">
-      <change afterPath="$PROJECT_DIR$/src/db_project/helpers/DbHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db_project/infrastructure/CrudRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db_project/infrastructure/ReadableRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db_project/infrastructure/ToObjectAble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db_project/infrastructure/WriteableRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db_project/repositories/CategoryRepository.java" afterDir="false" />
+    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="DB Example continues">
+      <change afterPath="$PROJECT_DIR$/src/exceptions/logging/LoggingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db_project/models/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/db_project/models/Category.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +19,8 @@
         <option value="package-info" />
         <option value="Record" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -42,35 +36,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "full.screen.before.presentation.mode": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Development/Libraries/java/sqljdbc_12.2/enu/mssql-jdbc-12.2.0.jre11.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Development/Libraries/java/sqljdbc_12.2/enu/mssql-jdbc-12.2.0.jre11.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="generics.db" />
       <recent name="exceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenericMethods">
+  <component name="RunManager" selected="Application.LoggingTest">
     <configuration name="CategoryRepository" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jdbc_example.CategoryRepository" />
       <module name="OOP_2023_GRUPI_1" />
@@ -84,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfaces.games.Game" />
+    <configuration name="GenericMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.GenericMethods" />
       <module name="OOP_2023_GRUPI_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interfaces.games.*" />
+          <option name="PATTERN" value="generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.GenericMethods" />
+    <configuration name="LoggingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.logging.LoggingTest" />
       <module name="OOP_2023_GRUPI_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.*" />
+          <option name="PATTERN" value="exceptions.logging.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LoggingTest" />
         <item itemvalue="Application.GenericMethods" />
         <item itemvalue="Application.CategoryRepository" />
         <item itemvalue="Application.TestConnection" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Game" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +203,10 @@
       <workItem from="1684340378353" duration="2635000" />
       <workItem from="1684430769969" duration="5145000" />
       <workItem from="1684437788614" duration="25000" />
-      <workItem from="1684769608032" duration="3174000" />
+      <workItem from="1684769608032" duration="3835000" />
+      <workItem from="1685377453016" duration="11000" />
+      <workItem from="1685632287397" duration="12000" />
+      <workItem from="1685632547533" duration="328000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142552915</created>
@@ -442,14 +439,20 @@
       <option name="project" value="LOCAL" />
       <updated>1684772839576</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="DB Example continues">
+      <created>1684774581304</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1684774581304</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="object &amp; class ushtrime" />
     <MESSAGE value="pass by reference &amp; value + some enums" />
     <MESSAGE value="enums examples" />
     <MESSAGE value="ushtrime" />
@@ -474,7 +477,8 @@
     <MESSAGE value="Category Repository" />
     <MESSAGE value="Generics" />
     <MESSAGE value="DB Example" />
-    <option name="LAST_COMMIT_MESSAGE" value="DB Example" />
+    <MESSAGE value="DB Example continues" />
+    <option name="LAST_COMMIT_MESSAGE" value="DB Example continues" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
