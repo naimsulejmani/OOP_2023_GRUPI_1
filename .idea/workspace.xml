@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="DB Example continues">
-      <change afterPath="$PROJECT_DIR$/src/exceptions/logging/LoggingTest.java" afterDir="false" />
+    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="Logger">
+      <change afterPath="$PROJECT_DIR$/src/lambdas_anonymous/LoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas_anonymous/LoggingMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas_anonymous/Power.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas_anonymous/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +23,7 @@
         <option value="Record" />
         <option value="Enum" />
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -64,7 +68,7 @@
       <recent name="exceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LoggingTest">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="CategoryRepository" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jdbc_example.CategoryRepository" />
       <module name="OOP_2023_GRUPI_1" />
@@ -104,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfaces.db_example.Main" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambdas_anonymous.Test" />
       <module name="OOP_2023_GRUPI_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interfaces.db_example.*" />
+          <option name="PATTERN" value="lambdas_anonymous.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.LoggingTest" />
         <item itemvalue="Application.GenericMethods" />
         <item itemvalue="Application.CategoryRepository" />
         <item itemvalue="Application.TestConnection" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +210,9 @@
       <workItem from="1684769608032" duration="3835000" />
       <workItem from="1685377453016" duration="11000" />
       <workItem from="1685632287397" duration="12000" />
-      <workItem from="1685632547533" duration="328000" />
+      <workItem from="1685632547533" duration="338000" />
+      <workItem from="1685988617173" duration="678000" />
+      <workItem from="1686141135822" duration="104000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142552915</created>
@@ -446,14 +452,20 @@
       <option name="project" value="LOCAL" />
       <updated>1684774581304</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Logger">
+      <created>1685632879376</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1685632879376</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="pass by reference &amp; value + some enums" />
     <MESSAGE value="enums examples" />
     <MESSAGE value="ushtrime" />
     <MESSAGE value="Relationship , Aggregation, Composition" />
@@ -478,7 +490,8 @@
     <MESSAGE value="Generics" />
     <MESSAGE value="DB Example" />
     <MESSAGE value="DB Example continues" />
-    <option name="LAST_COMMIT_MESSAGE" value="DB Example continues" />
+    <MESSAGE value="Logger" />
+    <option name="LAST_COMMIT_MESSAGE" value="Logger" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
