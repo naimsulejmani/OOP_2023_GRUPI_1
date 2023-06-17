@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="Detyre provimi - object &amp; classes">
-      <change afterPath="$PROJECT_DIR$/src/moster_provimi/DataKoha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/moster_provimi/DetyreMetoda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/moster_provimi/NegativeIDException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/moster_provimi/NenpunesiDK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/moster_provimi/NenpunesitTeKualifikuar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/moster_provimi/Punoj.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/moster_provimi/RrenjaKatroreNumratNegativeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/moster_provimi/TestException.java" afterDir="false" />
+    <list default="true" id="a8318c65-3fdd-411d-a950-47df527eaed3" name="Changes" comment="Detyrat tjera">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/moster_provimi/Nenpunesi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/moster_provimi/Nenpunesi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/moster_provimi/NenpunesiDK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/moster_provimi/NenpunesiDK.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +46,7 @@
     &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Development/Libraries/java/sqljdbc_12.2/enu/mssql-jdbc-12.2.0.jre11.jar&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/My Drive/Work/Cacttus Education/Subjects/Programimi i orientuar ne objekte/OOP - Java 2021/Workshop/2023 - Workshop/Grupi 2/Grupi D/demo&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -63,7 +55,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -73,13 +65,13 @@
       <recent name="exceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NenpunesitTeKualifikuar">
+  <component name="RunManager" selected="Application.TestException">
     <configuration name="DetyreMetoda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="moster_provimi.DetyreMetoda" />
+      <option name="MAIN_CLASS_NAME" value="moster_provimi1.DetyreMetoda" />
       <module name="OOP_2023_GRUPI_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="moster_provimi.*" />
+          <option name="PATTERN" value="moster_provimi1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,11 +80,11 @@
       </method>
     </configuration>
     <configuration name="Nenpunesi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="moster_provimi.Nenpunesi" />
+      <option name="MAIN_CLASS_NAME" value="moster_provimi1.Nenpunesi" />
       <module name="OOP_2023_GRUPI_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="moster_provimi.*" />
+          <option name="PATTERN" value="moster_provimi1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,11 +93,11 @@
       </method>
     </configuration>
     <configuration name="NenpunesiDK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="moster_provimi.NenpunesiDK" />
+      <option name="MAIN_CLASS_NAME" value="moster_provimi1.NenpunesiDK" />
       <module name="OOP_2023_GRUPI_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="moster_provimi.*" />
+          <option name="PATTERN" value="moster_provimi1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +106,11 @@
       </method>
     </configuration>
     <configuration name="NenpunesitTeKualifikuar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="moster_provimi.NenpunesitTeKualifikuar" />
+      <option name="MAIN_CLASS_NAME" value="moster_provimi1.NenpunesitTeKualifikuar" />
       <module name="OOP_2023_GRUPI_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="moster_provimi.*" />
+          <option name="PATTERN" value="moster_provimi1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambdas_anonymous.Test" />
+    <configuration name="TestException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="moster_provimi1.TestException" />
       <module name="OOP_2023_GRUPI_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambdas_anonymous.*" />
+          <option name="PATTERN" value="moster_provimi1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestException" />
         <item itemvalue="Application.NenpunesitTeKualifikuar" />
         <item itemvalue="Application.NenpunesiDK" />
         <item itemvalue="Application.DetyreMetoda" />
         <item itemvalue="Application.Nenpunesi" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +211,10 @@
       <workItem from="1685988617173" duration="678000" />
       <workItem from="1686141135822" duration="104000" />
       <workItem from="1686323500541" duration="186000" />
-      <workItem from="1686757020399" duration="3445000" />
+      <workItem from="1686757020399" duration="4053000" />
+      <workItem from="1686849762609" duration="53000" />
+      <workItem from="1686935107146" duration="160000" />
+      <workItem from="1686950505582" duration="2250000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142552915</created>
@@ -480,14 +475,20 @@
       <option name="project" value="LOCAL" />
       <updated>1686758048396</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Detyrat tjera">
+      <created>1686761234768</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1686761234768</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Relationship , Aggregation, Composition" />
     <MESSAGE value="game time" />
     <MESSAGE value="Courses" />
     <MESSAGE value="Inheritance" />
@@ -512,7 +513,8 @@
     <MESSAGE value="Logger" />
     <MESSAGE value="lambdas and anonymous" />
     <MESSAGE value="Detyre provimi - object &amp; classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Detyre provimi - object &amp; classes" />
+    <MESSAGE value="Detyrat tjera" />
+    <option name="LAST_COMMIT_MESSAGE" value="Detyrat tjera" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

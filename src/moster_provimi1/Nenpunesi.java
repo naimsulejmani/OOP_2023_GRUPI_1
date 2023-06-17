@@ -1,20 +1,20 @@
-package moster_provimi;
+package moster_provimi1;
 
 import java.time.LocalDate;
 
-public abstract class NenpunesiDK implements Punoj {
+public class Nenpunesi {
     private int id;
     private String emri;
     private String mbiemri;
-    private DataKoha datelindja;
+    private LocalDate datelindja;
     private String departamenti;
 
-    public NenpunesiDK() {
+    public Nenpunesi() {
 
     }
 
-    public NenpunesiDK(int id, String emri, String mbiemri,
-                       DataKoha datelindja, String departamenti) {
+    public Nenpunesi(int id, String emri, String mbiemri,
+                     LocalDate datelindja, String departamenti) {
         this.id = id;
         this.emri = emri;
         this.mbiemri = mbiemri;
@@ -26,7 +26,8 @@ public abstract class NenpunesiDK implements Punoj {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(int id) throws NegativeIDException {
+        if (this.id < 0) throw new NegativeIDException("Nuk lejohet vlera negative");
         this.id = id;
     }
 
@@ -46,11 +47,11 @@ public abstract class NenpunesiDK implements Punoj {
         this.mbiemri = mbiemri;
     }
 
-    public DataKoha getDatelindja() {
+    public LocalDate getDatelindja() {
         return datelindja;
     }
 
-    public void setDatelindja(DataKoha datelindja) {
+    public void setDatelindja(LocalDate datelindja) {
         this.datelindja = datelindja;
     }
 
@@ -68,16 +69,26 @@ public abstract class NenpunesiDK implements Punoj {
     }
 
     public static void main(String[] args) {
-//        NenpunesiDK n1 = new NenpunesiDK();//pa parametra
+//        Nenpunesi n1 = new Nenpunesi();//pa parametra
 //        n1.setEmri("Gazmend");
 //        n1.setId(3);
 //        n1.setMbiemri("Rashiti");
-//        n1.setDatelindja(new DataKoha(2000, 1, 1, 15, 44, 0));
+//        n1.setDatelindja(LocalDate.of(2009, 1, 1));
 //        n1.setDepartamenti("Shef");
-//        NenpunesiDK n2 = new NenpunesiDK(2, "Naim", "Sulejmani",
-//                new DataKoha(1999, 6, 1, 8, 40, 22), "Profesor");
+//        Nenpunesi n2 = new Nenpunesi(2, "Naim", "Sulejmani",
+//                LocalDate.of(2000, 1, 1), "Profesor");
 //
 //        System.out.println(n1);
 //        System.out.println(n2);
+
+
+        try {
+            Nenpunesi n1 = new Nenpunesi();
+            n1.setId(-10);
+        } catch (NegativeIDException ex) {
+            System.out.println(ex.getMessage());
+        }
     }
+
+
 }

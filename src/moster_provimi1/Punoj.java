@@ -1,4 +1,4 @@
-package moster_provimi;
+package moster_provimi1;
 
 @FunctionalInterface
 public interface Punoj {

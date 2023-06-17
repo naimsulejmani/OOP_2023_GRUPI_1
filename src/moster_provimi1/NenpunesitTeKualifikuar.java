@@ -1,4 +1,4 @@
-package moster_provimi;
+package moster_provimi1;
 
 public class NenpunesitTeKualifikuar extends NenpunesiDK {
     private String kualifikimet;
